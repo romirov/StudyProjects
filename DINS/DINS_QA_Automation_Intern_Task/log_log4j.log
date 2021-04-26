@@ -1,0 +1,151 @@
+2021-02-07 21:39:39,481 INFO [main] r.e.Application [StartupInfoLogger.java:55] Starting Application v1.1-SNAPSHOT on hanzas-Mac-mini.local with PID 20617 (/Users/hanza/java/DINS/DINS_QA_Automation_Intern_Task/phonebook.jar started by hanza in /Users/hanza/java/DINS/DINS_QA_Automation_Intern_Task)
+2021-02-07 21:39:39,485 INFO [main] r.e.Application [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2021-02-07 21:39:40,470 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-07 21:39:40,617 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 126ms. Found 2 repository interfaces.
+2021-02-07 21:39:41,152 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-07 21:39:41,787 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2021-02-07 21:39:41,952 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-07 21:39:41,953 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-02-07 21:39:41,953 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-07 21:39:42,133 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-02-07 21:39:42,133 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2565 ms
+2021-02-07 21:39:42,324 INFO [main] o.f.c.i.l.VersionPrinter [Slf4jLog.java:49] Flyway Community Edition 6.0.6 by Redgate
+2021-02-07 21:39:42,333 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-02-07 21:39:42,567 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-02-07 21:39:42,601 INFO [main] o.f.c.i.d.DatabaseFactory [Slf4jLog.java:49] Database: jdbc:h2:mem:testdb (H2 1.4)
+2021-02-07 21:39:42,720 INFO [main] o.f.c.i.c.DbValidate [Slf4jLog.java:49] Successfully validated 2 migrations (execution time 00:00.042s)
+2021-02-07 21:39:42,740 INFO [main] o.f.c.i.s.JdbcTableSchemaHistory [Slf4jLog.java:49] Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-02-07 21:39:42,796 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Current version of schema "PUBLIC": << Empty Schema >>
+2021-02-07 21:39:42,802 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Migrating schema "PUBLIC" to version 1 - init DB
+2021-02-07 21:39:42,844 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Migrating schema "PUBLIC" to version 2 - add user and contact
+2021-02-07 21:39:42,866 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Successfully applied 2 migrations to schema "PUBLIC" (execution time 00:00.082s)
+2021-02-07 21:39:43,026 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-07 21:39:43,134 INFO [main] o.h.Version [Version.java:46] HHH000412: Hibernate Core {5.4.6.Final}
+2021-02-07 21:39:43,351 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-07 21:39:43,539 INFO [main] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-07 21:39:44,572 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-07 21:39:44,579 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-07 21:39:45,602 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-07 21:39:46,810 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-07 21:39:46,997 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-07 21:39:46,999 INFO [main] r.e.Application [StartupInfoLogger.java:61] Started Application in 8.681 seconds (JVM running for 10.512)
+2021-02-07 21:40:11,614 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-07 21:40:11,614 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2021-02-07 21:40:11,621 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 7 ms
+2021-02-07 21:41:10,765 INFO [http-nio-8080-exec-8] o.s.a.AbstractOpenApiResource [AbstractOpenApiResource.java:68] Init duration for springdoc-openapi is: 512 ms
+2021-02-08 16:00:18,420 INFO [http-nio-8080-exec-8] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-08 16:00:18,453 INFO [http-nio-8080-exec-8] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-08 16:00:39,845 INFO [http-nio-8080-exec-5] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-08 16:00:39,847 INFO [http-nio-8080-exec-5] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-08 17:42:22,871 INFO [http-nio-8080-exec-3] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-08 17:42:22,874 INFO [http-nio-8080-exec-3] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-08 17:47:00,038 INFO [http-nio-8080-exec-5] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-08 17:47:00,043 INFO [http-nio-8080-exec-5] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-08 23:44:00,651 INFO [http-nio-8080-exec-4] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-08 23:44:00,760 INFO [http-nio-8080-exec-4] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-08 23:46:08,548 INFO [http-nio-8080-exec-1] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-08 23:46:08,551 INFO [http-nio-8080-exec-1] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-08 23:54:43,540 INFO [http-nio-8080-exec-3] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-08 23:54:43,543 INFO [http-nio-8080-exec-3] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 00:01:50,754 INFO [http-nio-8080-exec-9] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-09 00:01:50,756 INFO [http-nio-8080-exec-9] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 00:02:56,386 INFO [http-nio-8080-exec-6] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-09 00:02:56,388 INFO [http-nio-8080-exec-6] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 00:07:00,514 INFO [http-nio-8080-exec-5] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-09 00:07:00,516 INFO [http-nio-8080-exec-5] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 00:07:50,457 INFO [http-nio-8080-exec-4] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-09 00:07:50,459 INFO [http-nio-8080-exec-4] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 00:09:02,749 INFO [http-nio-8080-exec-1] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-09 00:09:02,751 INFO [http-nio-8080-exec-1] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 00:15:24,586 INFO [http-nio-8080-exec-1] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-09 00:15:24,589 INFO [http-nio-8080-exec-1] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 00:27:38,003 INFO [http-nio-8080-exec-6] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-09 00:27:38,005 INFO [http-nio-8080-exec-6] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 00:29:53,490 INFO [http-nio-8080-exec-10] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-09 00:29:53,492 INFO [http-nio-8080-exec-10] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 00:30:58,817 INFO [http-nio-8080-exec-2] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-09 00:30:58,820 INFO [http-nio-8080-exec-2] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 00:31:30,037 INFO [http-nio-8080-exec-5] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-09 00:31:30,039 INFO [http-nio-8080-exec-5] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 00:32:00,798 INFO [http-nio-8080-exec-6] r.e.s.i.UserServiceImpl [UserServiceImpl.java:83] User with this id:1 is deleted
+2021-02-09 00:32:00,801 INFO [http-nio-8080-exec-6] o.h.e.j.b.i.AbstractBatchImpl [AbstractBatchImpl.java:204] HHH000010: On release of batch it still contained JDBC statements
+2021-02-09 22:29:33,042 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-09 22:29:33,065 INFO [SpringContextShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-09 22:29:33,067 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-02-09 22:29:33,069 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-02-09 22:58:11,074 INFO [main] r.e.Application [StartupInfoLogger.java:55] Starting Application v1.1-SNAPSHOT on hanzas-Mac-mini.local with PID 34886 (/Users/hanza/java/DINS/DINS_QA_Automation_Intern_Task/phonebook.jar started by hanza in /Users/hanza/java/DINS/DINS_QA_Automation_Intern_Task)
+2021-02-09 22:58:11,078 INFO [main] r.e.Application [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2021-02-09 22:58:12,006 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-09 22:58:12,113 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 92ms. Found 2 repository interfaces.
+2021-02-09 22:58:12,600 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-09 22:58:12,968 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2021-02-09 22:58:12,983 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-09 22:58:12,983 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-02-09 22:58:12,984 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-09 22:58:13,072 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-02-09 22:58:13,073 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1917 ms
+2021-02-09 22:58:13,242 INFO [main] o.f.c.i.l.VersionPrinter [Slf4jLog.java:49] Flyway Community Edition 6.0.6 by Redgate
+2021-02-09 22:58:13,251 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-02-09 22:58:13,447 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-02-09 22:58:13,472 INFO [main] o.f.c.i.d.DatabaseFactory [Slf4jLog.java:49] Database: jdbc:h2:mem:testdb (H2 1.4)
+2021-02-09 22:58:13,572 INFO [main] o.f.c.i.c.DbValidate [Slf4jLog.java:49] Successfully validated 2 migrations (execution time 00:00.046s)
+2021-02-09 22:58:13,591 INFO [main] o.f.c.i.s.JdbcTableSchemaHistory [Slf4jLog.java:49] Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-02-09 22:58:13,661 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Current version of schema "PUBLIC": << Empty Schema >>
+2021-02-09 22:58:13,670 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Migrating schema "PUBLIC" to version 1 - init DB
+2021-02-09 22:58:13,710 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Migrating schema "PUBLIC" to version 2 - add user and contact
+2021-02-09 22:58:13,738 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Successfully applied 2 migrations to schema "PUBLIC" (execution time 00:00.092s)
+2021-02-09 22:58:13,869 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-09 22:58:13,978 INFO [main] o.h.Version [Version.java:46] HHH000412: Hibernate Core {5.4.6.Final}
+2021-02-09 22:58:14,179 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-09 22:58:14,333 INFO [main] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-09 22:58:15,122 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-09 22:58:15,132 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-09 22:58:16,023 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-09 22:58:17,256 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-09 22:58:17,304 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-09 22:58:17,307 INFO [main] r.e.Application [StartupInfoLogger.java:61] Started Application in 6.705 seconds (JVM running for 7.611)
+2021-02-09 22:58:20,700 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-09 22:58:20,700 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2021-02-09 22:58:20,714 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 14 ms
+2021-02-10 00:29:12,438 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-10 00:29:12,439 INFO [SpringContextShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-10 00:29:12,441 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-02-10 00:29:12,444 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-02-10 00:35:31,672 INFO [main] r.e.Application [StartupInfoLogger.java:55] Starting Application v1.1-SNAPSHOT on hanzas-Mac-mini.local with PID 35178 (/Users/hanza/java/DINS/DINS_QA_Automation_Intern_Task/phonebook.jar started by hanza in /Users/hanza/java/DINS/DINS_QA_Automation_Intern_Task)
+2021-02-10 00:35:31,677 INFO [main] r.e.Application [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2021-02-10 00:35:32,570 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-10 00:35:32,679 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 94ms. Found 2 repository interfaces.
+2021-02-10 00:35:33,208 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-10 00:35:33,580 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2021-02-10 00:35:33,602 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-10 00:35:33,602 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-02-10 00:35:33,603 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-10 00:35:33,706 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-02-10 00:35:33,707 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1956 ms
+2021-02-10 00:35:33,914 INFO [main] o.f.c.i.l.VersionPrinter [Slf4jLog.java:49] Flyway Community Edition 6.0.6 by Redgate
+2021-02-10 00:35:33,923 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-02-10 00:35:34,154 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-02-10 00:35:34,185 INFO [main] o.f.c.i.d.DatabaseFactory [Slf4jLog.java:49] Database: jdbc:h2:mem:testdb (H2 1.4)
+2021-02-10 00:35:34,301 INFO [main] o.f.c.i.c.DbValidate [Slf4jLog.java:49] Successfully validated 2 migrations (execution time 00:00.054s)
+2021-02-10 00:35:34,319 INFO [main] o.f.c.i.s.JdbcTableSchemaHistory [Slf4jLog.java:49] Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2021-02-10 00:35:34,379 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Current version of schema "PUBLIC": << Empty Schema >>
+2021-02-10 00:35:34,413 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Migrating schema "PUBLIC" to version 1 - init DB
+2021-02-10 00:35:34,452 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Migrating schema "PUBLIC" to version 2 - add user and contact
+2021-02-10 00:35:34,475 INFO [main] o.f.c.i.c.DbMigrate [Slf4jLog.java:49] Successfully applied 2 migrations to schema "PUBLIC" (execution time 00:00.111s)
+2021-02-10 00:35:34,600 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-10 00:35:34,706 INFO [main] o.h.Version [Version.java:46] HHH000412: Hibernate Core {5.4.6.Final}
+2021-02-10 00:35:34,910 INFO [main] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-10 00:35:35,060 INFO [main] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-10 00:35:35,861 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-10 00:35:35,869 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-10 00:35:36,781 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-10 00:35:38,541 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-10 00:35:38,594 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-10 00:35:38,597 INFO [main] r.e.Application [StartupInfoLogger.java:61] Started Application in 7.43 seconds (JVM running for 8.247)
+2021-02-10 00:38:20,492 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-10 00:38:20,493 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2021-02-10 00:38:20,506 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 13 ms
+2021-02-10 00:48:29,510 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-10 00:48:29,512 INFO [SpringContextShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-10 00:48:29,515 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-02-10 00:48:29,518 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

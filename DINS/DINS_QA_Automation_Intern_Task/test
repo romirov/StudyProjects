@@ -1,0 +1,1 @@
+codeResponse.put(100,"CONTINUE") codeResponse.put(101,"SWITCHING_PROTOCOLS") codeResponse.put(102,"PROCESSING") codeResponse.put(103,"CHECKPOINT") codeResponse.put(200,"OK") codeResponse.put(201,"CREATED") codeResponse.put(202,"ACCEPTED") 

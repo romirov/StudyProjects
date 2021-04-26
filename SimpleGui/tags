@@ -1,0 +1,6 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+actionPerformed	/home/hanza/java/SimpleGui/SimpleGui1B.java	/^    public void actionPerformed(ActionEvent event){$/;"	m	language:Java	class:SimpleGui1B
+button	/home/hanza/java/SimpleGui/SimpleGui1B.java	/^    private JButton button;$/;"	f	language:Java	class:SimpleGui1B	file:
+go	/home/hanza/java/SimpleGui/SimpleGui1B.java	/^    public void go(){$/;"	m	language:Java	class:SimpleGui1B
+main	/home/hanza/java/SimpleGui/SimpleGui1B.java	/^    public static void main(String[] args){$/;"	m	language:Java	class:SimpleGui1B
+SimpleGui1B	/home/hanza/java/SimpleGui/SimpleGui1B.java	/^public class SimpleGui1B implements ActionListener{$/;"	c	language:Java

@@ -1,0 +1,12 @@
+1import java.io.*;
+
+/* 
+Разделение файла
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        try(BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+                FileInputStream file1 = new FileInputStream(reader.readLine());
+                FileOutputStream file2 = new FileOutputStream(reader.readLine());
+                FileOutputStream file3 = new FileOutputStream(read

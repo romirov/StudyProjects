@@ -1,0 +1,15 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+Employee	/home/hanza/java/staticTest/StaticTest.java	/^    public Employee(String n, double s){$/;"	m	language:Java	class:Employee
+Employee	/home/hanza/java/staticTest/StaticTest.java	/^class Employee{$/;"	c	language:Java
+getId	/home/hanza/java/staticTest/StaticTest.java	/^    public int getId(){$/;"	m	language:Java	class:Employee
+getName	/home/hanza/java/staticTest/StaticTest.java	/^    public String getName(){$/;"	m	language:Java	class:Employee
+getNextId	/home/hanza/java/staticTest/StaticTest.java	/^    public static int getNextId(){$/;"	m	language:Java	class:Employee
+getSalary	/home/hanza/java/staticTest/StaticTest.java	/^    public double getSalary(){$/;"	m	language:Java	class:Employee
+id	/home/hanza/java/staticTest/StaticTest.java	/^    private int id;$/;"	f	language:Java	class:Employee	file:
+main	/home/hanza/java/staticTest/StaticTest.java	/^    public static void main(String[] args){$/;"	m	language:Java	class:Employee
+main	/home/hanza/java/staticTest/StaticTest.java	/^    public static void main(String[] args){$/;"	m	language:Java	class:StaticTest
+name	/home/hanza/java/staticTest/StaticTest.java	/^    private String name;$/;"	f	language:Java	class:Employee	file:
+nextId	/home/hanza/java/staticTest/StaticTest.java	/^    private static int nextId = 1;$/;"	f	language:Java	class:Employee	file:
+salary	/home/hanza/java/staticTest/StaticTest.java	/^    private double salary;$/;"	f	language:Java	class:Employee	file:
+setId	/home/hanza/java/staticTest/StaticTest.java	/^    public void setId(){$/;"	m	language:Java	class:Employee
+StaticTest	/home/hanza/java/staticTest/StaticTest.java	/^public class StaticTest{$/;"	c	language:Java

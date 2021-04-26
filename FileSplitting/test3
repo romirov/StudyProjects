@@ -1,0 +1,18 @@
+er.readLine());
+            ){
+            int lenFile1 = file1.available();
+            int count = 0;
+            while(file1.available() > 0){
+                if(count <= lenFile1){
+                    file2.write(file1.read());
+                }else{
+                    file3.write(file1.read());
+                }
+                count++;
+            }
+        }catch(IOException ioe){
+            ioe.printStackTrace();
+        }
+    }
+}
+

@@ -1,0 +1,6 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+draw	/home/hanza/java/MyImagePanel/MyImagePanel.java	/^    public void draw(){$/;"	m	language:Java	class:MyImagePanel
+main	/home/hanza/java/MyImagePanel/MyImagePanel.java	/^    public static void main(String[] args){$/;"	m	language:Java	class:MyImagePanel
+MyImagePanel	/home/hanza/java/MyImagePanel/MyImagePanel.java	/^package MyImagePanel;$/;"	p	language:Java
+MyImagePanel	/home/hanza/java/MyImagePanel/MyImagePanel.java	/^public class MyImagePanel extends JPanel{\/\/создаем подкласс JPanel, который будет добавляться во фрейм как виджет$/;"	c	language:Java
+paintComponent	/home/hanza/java/MyImagePanel/MyImagePanel.java	/^    public void paintComponent(Graphics g){$/;"	m	language:Java	class:MyImagePanel

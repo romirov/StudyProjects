@@ -1,0 +1,2 @@
+Не запускать rmiregistry и на маке
+Запустить MyRemoteImpl и запустить MyRemoteClient

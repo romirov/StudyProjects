@@ -1,0 +1,36 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+actionPerformed	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^        public void actionPerformed(ActionEvent event){$/;"	m	language:Java	class:MyPaintFrame.ColorListener
+actionPerformed	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^        public void actionPerformed(ActionEvent event){$/;"	m	language:Java	class:MyPaintFrame.LabelListener
+Animate	/home/hanza/java/PaintRect/Animate.java	/^public class Animate{$/;"	c	language:Java
+BorderLayoutTestDrive	/home/hanza/java/Layout/BorderLayoutTestDrive.java	/^public class BorderLayoutTestDrive{$/;"	c	language:Java
+ColorListener	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^    class ColorListener implements ActionListener{$/;"	c	language:Java	class:MyPaintFrame
+draw	/home/hanza/java/DrawOvalOnPanel/DrawOvalOnPanel.java	/^    public void draw(){$/;"	m	language:Java	class:DrawOvalOnPanel
+draw	/home/hanza/java/MyImagePanel/MyImagePanel.java	/^    public void draw(){$/;"	m	language:Java	class:MyImagePanel
+drawComponent	/home/hanza/java/DrawOvalOnPanel/DrawOvalOnPanel.java	/^    public void drawComponent(Graphics g){$/;"	m	language:Java	class:DrawOvalOnPanel
+DrawOvalOnPanel	/home/hanza/java/DrawOvalOnPanel/DrawOvalOnPanel.java	/^class DrawOvalOnPanel extends JPanel{$/;"	c	language:Java
+DrawOvalOnPanel	/home/hanza/java/DrawOvalOnPanel/DrawOvalOnPanel.java	/^package DrawOvalOnPanel;$/;"	p	language:Java
+frame	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^    private JFrame frame;$/;"	f	language:Java	class:MyPaintFrame	file:
+go	/home/hanza/java/Layout/BorderLayoutTestDrive.java	/^    public void go(){$/;"	m	language:Java	class:BorderLayoutTestDrive
+go	/home/hanza/java/PaintRect/Animate.java	/^    public void go(){$/;"	m	language:Java	class:Animate
+goDrawFrame	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^    public void goDrawFrame(){$/;"	m	language:Java	class:MyPaintFrame
+label	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^    private JLabel label;$/;"	f	language:Java	class:MyPaintFrame	file:
+LabelListener	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^    class LabelListener implements ActionListener{$/;"	c	language:Java	class:MyPaintFrame
+Layout	/home/hanza/java/Layout/BorderLayoutTestDrive.java	/^package Layout;$/;"	p	language:Java
+main	/home/hanza/java/DrawOvalOnPanel/DrawOvalOnPanel.java	/^    public static void main(String[] args){$/;"	m	language:Java	class:DrawOvalOnPanel
+main	/home/hanza/java/Layout/BorderLayoutTestDrive.java	/^    public static void main(String[] args){$/;"	m	language:Java	class:BorderLayoutTestDrive
+main	/home/hanza/java/MyImagePanel/MyImagePanel.java	/^    public static void main(String[] args){$/;"	m	language:Java	class:MyImagePanel
+main	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^    public static void main(String[] args){$/;"	m	language:Java	class:Paint2ButtonCircleAndLable
+main	/home/hanza/java/PaintRect/Animate.java	/^    public static void main(String[] args){$/;"	m	language:Java	class:Animate
+MyDrawP	/home/hanza/java/PaintRect/Animate.java	/^    class MyDrawP extends JPanel{$/;"	c	language:Java	class:Animate
+MyImagePanel	/home/hanza/java/MyImagePanel/MyImagePanel.java	/^class MyImagePanel extends JPanel{\/\/создаем подкласс JPanel, который будет добавляться во фрейм как виджет$/;"	c	language:Java
+MyImagePanel	/home/hanza/java/MyImagePanel/MyImagePanel.java	/^package MyImagePanel;$/;"	p	language:Java
+MyPaintCircle	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^class MyPaintCircle extends JPanel{$/;"	c	language:Java
+MyPaintFrame	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^class MyPaintFrame{$/;"	c	language:Java
+Paint2ButtonCircleAndLable	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^class Paint2ButtonCircleAndLable{$/;"	c	language:Java
+Paint2ButtonCircleAndLable	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^package Paint2ButtonCircleAndLable;$/;"	p	language:Java
+paintComponent	/home/hanza/java/MyImagePanel/MyImagePanel.java	/^    public void paintComponent(Graphics g){$/;"	m	language:Java	class:MyImagePanel
+paintComponent	/home/hanza/java/Paint2ButtonCircleAndLable/Paint2ButtonCircleAndLable.java	/^    public void paintComponent(Graphics g){$/;"	m	language:Java	class:MyPaintCircle
+paintComponent	/home/hanza/java/PaintRect/Animate.java	/^        public void paintComponent(Graphics g){$/;"	m	language:Java	class:Animate.MyDrawP
+PaintRect	/home/hanza/java/PaintRect/Animate.java	/^package PaintRect;$/;"	p	language:Java
+x	/home/hanza/java/PaintRect/Animate.java	/^    int x = 1;$/;"	f	language:Java	class:Animate
+y	/home/hanza/java/PaintRect/Animate.java	/^    int y = 1;$/;"	f	language:Java	class:Animate

@@ -1,0 +1,41 @@
+    public interface ReadFileInterface {
+
+        void setFileName(String fullFileName);
+
+        String getFileContent();
+
+        void join() throws InterruptedException;
+
+        void start();
+    }
+
+    //add your code here - добавьте код тут
+    public static class ReadFileThread implements ReadFileInterface{
+        public static String fullFileName;
+        public void setFileName(String fullFileName){
+            this.fullFileName = fullFileName;
+        }
+        
+        public String getFileContent(){
+            StringBuilder strBuilder = new StringBuilder();
+            try(FileReader fileReader = new FileReader(fullFileName)){
+                while(fileReader.ready()){
+                    strBuilder.append(fileReader.readLine);
+                    strBuilder.append(" ");
+                }
+            }catch(IOException ioe){
+                ioe.printStackTrace();
+            }
+            return strBuilder.toString();
+        }
+        
+        public void join() throws InterruptedException{}
+
+        public void start(){}
+            
+        public void run(){
+            
+        }    
+    }
+}
+
