@@ -13,7 +13,7 @@ public class Solution {
                 char[] data = new char[1000];
                 int lengthData = fileReader.read(data);
 
-                for(int i = 1; i < lengthData; i+=2){
+                for(int i = 2; i < lengthData; i+2){
                     fileWriter.write(data[i]);
                 }
             }
