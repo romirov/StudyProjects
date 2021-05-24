@@ -1,0 +1,6 @@
+Info about Leela <span xml:lang="en" lang="en"><b><span>Turanga Leela
+</span></b></span><span>Super</span><span>girl</span>
+       <span>     <abc>Строка   с   пробелами  </abc>     </span>
+		<span>		<abc>	Строка	с	табуляцией</abc>	</span>
+
+<span>	<span> <span>  <span>STRING</span></span></span></span>
