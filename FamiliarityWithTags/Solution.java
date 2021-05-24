@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 //import java.util.HashMap;
-/* 
+/* Код ниже дает правильные ответы
 Знакомство с тегами
 Считай с консоли имя файла, который имеет HTML-формат.
 
