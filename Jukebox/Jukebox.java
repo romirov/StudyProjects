@@ -7,16 +7,11 @@ import java.io.*;
  * Сортировать будем песни по названию и автору
  * Для сортировки используем методы sort() из Collections:
  * sort(List<T> list) - порядок сортировки определяют методы compareTo() каждого элемента
- * По этой причине элементы списка должны реализовать интерфейс Comparable
+ * По этой причине элементы списка должны реализовать интерфейс Comparable 
  *
  * sort(List<T> list, Comparator<? super T> c) - методы compareTo(), принадлежащие элементам списка вызываться не будут
- * Вместо этого будет задействован метод compare() из Comparator и в этом случае элементы списка не должны
+ * Вместо этого будет задействован метод compare() из Comparator и в этом случае элементы списка не должны 
  * реализовывать интерфейс Comparable
- * Примечание: т.к. мы оставили нетронутым метод compareTo() в классе Song,
- * то по умолчанию при сортировке будет использлваться название песни
- * Но то же самое можно сделать, создав вложенные реализации Comparator как для
- * названия, так и для имени исполнителя, отказавшись от реализации Comparable для Song
- * Таким образом, мы бы всегда использовали версию Collections.sort с двумя аргументами
  */
 
 class Song implements Comparable<Song>{///Нужно реализовать класс Comparable,
@@ -24,7 +19,7 @@ class Song implements Comparable<Song>{///Нужно реализовать кл
   private String title;
   private String artist;
   private String rating;
-  private String bpm;
+  private String bpm; 
 
   //единственный метод из Comparable, который необходимо реализовать
   //он сравнивает песни по названию
@@ -56,25 +51,22 @@ class Song implements Comparable<Song>{///Нужно реализовать кл
   public String getBpm(){
     return bpm;
   }
-  /* переопределяем toString, потому что при вызове println хотим видеть
-  * название песни
-  * Этот вызов происходит при выводе каждого элемента списка
-  */
+  
   public String toString(){
     return title;
   }
 }
 
 public class Jukebox{
-
-  ArrayList<Song> songList = new ArrayList<Song>();
+  
+  ArrayList<Song> songList = new ArrayList<Song>(); 
 
   public static void main(String[] args){
-    new Jukebox().go();
+    new Jukebox.go();
   }
   /*
-   * Вложенный класс, реализующий Comparator(тип параметра совпадает с типом,
-   * который собираемся сравнивать - Song)
+   * Вложенный класс, реализующий Comparator(тип параметра совпадает с типом),
+   * который собираемся сравнивать - Song
    */
   class ArtistCompare implements Comparator<Song>{
     public int compare(Song one, Song two){
@@ -90,14 +82,6 @@ public class Jukebox{
     getSong();
     System.out.println(songList);
     Collections.sort(songList);
-    System.out.println(songList);
-
-    /* создаем экземпляр вложенного класса Comparator
-    * вызываем метод sort() и передаем ему список песен и ссылку на объект Comparator
-    */
-    ArtistCompare artistCompare = new ArtistCompare();
-    Collections.sort(songList, artistCompare);
-
     System.out.println(songList);
   }
 
